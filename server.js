@@ -67,7 +67,7 @@ app.post('/api/register', async (req, res) => {
   }
 });
 
-// Login endpoint
+// Logidhgugyugyugeygefn endpoint
 app.post('/api/login', async (req, res) => {
   try {
     const { email, password } = req.body;
