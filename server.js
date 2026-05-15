@@ -67,13 +67,16 @@ app.post('/api/register', async (req, res) => {
   }
 });
 
-// Logidhgugyugyugeygefn endpoint
+// Logidfjiohihrihyryhririojoirjiorjririohruhgugyugyugeygefn endpoint
 app.post('/api/login', async (req, res) => {
   try {
     const { email, password } = req.body;
 
     // Validate input
     if (!email || !password) {
+  
+  
+
       return res.status(400).json({ error: 'Email and password are required' });
     }
 
